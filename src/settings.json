@@ -1,0 +1,37 @@
+{
+  "settings": {
+    "usersettings":{
+      "language": "FIN"
+    },
+    "alertSettings": [
+      {
+        "id": 1,
+        "LocationName": "Pikkulaiva",
+        "ProductName": "Ninja",
+        "AlertType": "waste",
+        "Limit": 3
+      },
+      {
+        "id": 2,
+        "LocationName": "Pikkulaiva",
+        "ProductName": "Ninja",
+        "AlertType": "refill",
+        "Limit": 6
+      },
+      {
+        "id": 3,
+        "LocationName": "Pikkulaiva",
+        "ProductName": "Samurai",
+        "AlertType": "refill",
+        "Limit": 7
+      },
+      {
+        "id": 4,
+        "LocationName": "Pikkulaiva",
+        "ProductName": "Panda",
+        "AlertType": "refill",
+        "Limit": 4
+      }
+    ]
+  }
+}

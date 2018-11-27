@@ -1,0 +1,19 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+*{
+  box-sizing: border-box;
+}
+@import "styles/typography.scss";
+@import "styles/loader.scss";
+@import "styles/variables.scss";
+@import "styles/buttons.scss";
+@import "styles/login-registration.scss";
+@import "styles/home.scss";
+@import "styles/sidebar.scss";
+@import "styles/settings.scss";
+@import "styles/datepicker.scss";
+@import "styles/select.scss";
+@import "styles/home-header.scss";
+@import "styles/sidebar-header.scss";
+@import "styles/home-table-wrap.scss";
+

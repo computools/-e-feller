@@ -1,0 +1,37 @@
+@import "variables.scss";
+
+.react-datepicker__input-container {
+  position: relative;
+  input {
+    width: 220px;
+    margin: 10px 0;
+    font-size: 18px;
+    padding: 9px 0 9px 25px;
+    border: 2px solid $primary-color-3;
+    border-radius: 35px;
+    color: $primary-color-4;
+    outline: none;
+  }
+   &:after {
+     display: block;
+     position: absolute;
+     font-family: FontAwesome;
+     content: "\f073";
+     top: 18.5px;
+     right: 16px;
+   }
+  input:focus{
+    border: 2px solid #00aab0;
+    .react-datepicker__input-container:after{
+      display: block;
+      position: absolute;
+      font-family: FontAwesome;
+      content: "\f073";
+      top: 18.5px;
+      right: 16px;
+      color: #00aab0;
+    }
+  }
+}
+
+

@@ -1,0 +1,65 @@
+.btn-one {
+  display: inline-block;
+  font-size: 18px;
+  padding: 0.5em 4em;
+  border: 2px solid #00ADB3;
+  border-radius: 35px;
+  color: #00ADB3;
+  cursor: pointer;
+  margin: 25px 0;
+  outline: none;
+  transition: all .3s ease;
+  background: transparent; }
+  .btn-one:hover {
+    background: #80DCDF;
+    color: #fff;
+    border: 2px solid #80DCDF;
+    transition: all .3s ease; }
+  .btn-one:active {
+    background: #00AAB0;
+    color: #fff;
+    border: 2px solid #00AAB0;
+    transition: all .3s ease; }
+
+.btn-apply {
+  display: inline-block;
+  font-size: 18px;
+  padding: 0.5em 1.5em;
+  border: 2px solid #00ADB3;
+  border-radius: 35px;
+  color: #00ADB3;
+  cursor: pointer;
+  margin: 25px 0;
+  outline: none;
+  transition: all .3s ease;
+  background: transparent; }
+  .btn-apply:hover {
+    background: #80DCDF;
+    color: #fff;
+    border: 2px solid #80DCDF;
+    transition: all .3s ease; }
+  .btn-apply:active {
+    background: #00AAB0;
+    color: #fff;
+    border: 2px solid #00AAB0;
+    transition: all .3s ease; }
+
+.btn-two {
+  display: inline-block;
+  font-size: 18px;
+  padding: 0.8em 3em;
+  border: 2px solid #454847;
+  border-radius: 35px;
+  color: #454847;
+  cursor: pointer;
+  transition: all .3s ease; }
+  .btn-two:hover {
+    background: #4A5A6C;
+    color: #fff;
+    border: 2px solid #4A5A6C;
+    transition: all .3s ease; }
+  .btn-two:active {
+    background: #1D3148;
+    color: #fff;
+    border: 2px solid #1D3148;
+    transition: all .3s ease; }

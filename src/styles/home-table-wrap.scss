@@ -1,0 +1,22 @@
+.home-table-wrap{
+  display: block;
+  width: 100%;
+  margin-top: 50px;
+  padding: 25px;
+  h3{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  img{
+    width: 25px;
+  }
+  border-right: 2px solid #ccc ;
+  @media only screen and (max-width : 768px) {
+    border-right: none ;
+    border-bottom: 2px solid #ccc;
+  }
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #F2F2F2;
+}

@@ -1,0 +1,87 @@
+.anim-appear {
+  opacity: 0.01; }
+
+.anim-appear.anim-appear-active {
+  opacity: 2;
+  transition: opacity 0.3s ease-in; }
+
+.auth-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.auth-container {
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid #1D3148;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #F4F4F4;
+  box-shadow: 0px 0px 10px 0px rgba(29, 49, 72, 0.36); }
+  .auth-container hr {
+    width: 100%; }
+
+.auth-header {
+  width: 100%;
+  background: #1D3148;
+  padding: 25px 0; }
+  .auth-header .logo {
+    text-align: center;
+    margin: 0 auto; }
+    .auth-header .logo img {
+      width: 110px; }
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 70px;
+  margin: 0 auto; }
+  .login-form h3 {
+    padding: 0;
+    margin: 15px 0;
+    color: #414141; }
+  .login-form input {
+    width: 100%;
+    margin: 10px 0;
+    font-size: 18px;
+    padding: 0.6em 3em;
+    border: 1px solid #1D3148;
+    border-radius: 35px;
+    color: #333;
+    outline: none; }
+  .login-form hr {
+    height: 1px !important; }
+  .login-form .submit-form {
+    display: block;
+    font-size: 18px;
+    line-height: 14px;
+    padding: 0.6em 3em;
+    border: 2px solid #00ADB3;
+    border-radius: 35px;
+    color: #00ADB3;
+    cursor: pointer;
+    margin: 10px auto;
+    text-align: center;
+    outline: none; }
+    .login-form .submit-form:hover {
+      background: #80DCDF;
+      color: #fff;
+      border: 2px solid #80DCDF;
+      transition: all .3s ease; }
+    .login-form .submit-form:active {
+      background: #00AAB0;
+      color: #fff;
+      border: 2px solid #00AAB0;
+      transition: all .3s ease; }
+  .login-form .error-message {
+    margin: 10px auto 20px auto;
+    background: #FF7D60;
+    text-align: center;
+    padding: 0.6em 0.3em;
+    border-radius: 15px;
+    box-shadow: 0px 0px 34px 8px rgba(255, 112, 87, 0.2);
+    color: #fff; }

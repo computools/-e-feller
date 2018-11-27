@@ -1,0 +1,52 @@
+.home-header-wrapp {
+  padding: 25px; }
+  .home-header-wrapp .fa-bars {
+    font-size: 40px;
+    margin: 0 0 10px 0;
+    transition: all 0.2s; }
+    .home-header-wrapp .fa-bars:hover {
+      color: #ccc;
+      transition: all 0.2s; }
+  @media only screen and (min-width: 780px) {
+    .home-header-wrapp .fa-bars {
+      display: none; } }
+
+.home-header-title {
+  text-align: left;
+  padding-left: 25px; }
+  .home-header-title h1 {
+    padding: 0;
+    margin: 0; }
+  @media only screen and (max-width: 480px) {
+    .home-header-title {
+      text-align: center;
+      padding: 0; }
+      .home-header-title h2 {
+        text-align: center; } }
+  @media only screen and (max-width: 780px) {
+    .home-header-title {
+      text-align: center;
+      padding: 0; }
+      .home-header-title h2 {
+        text-align: center; } }
+
+.date-picker {
+  text-align: right; }
+  @media only screen and (max-width: 480px) {
+    .date-picker {
+      text-align: center; } }
+
+.sub-header-selects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  @media only screen and (max-width: 480px) {
+    .sub-header-selects {
+      flex-direction: column; } }
+  .sub-header-selects .start-date-select {
+    margin: 0 20px; }
+  .sub-header-selects .end-date-select {
+    margin: 0 20px; }
+  .sub-header-selects .apply-select {
+    margin: 0 20px; }

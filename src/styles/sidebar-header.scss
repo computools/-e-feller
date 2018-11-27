@@ -1,0 +1,32 @@
+@import "variables.scss";
+
+.sidebar-header{
+  text-align: center;
+  padding: 50px 0;
+  h3{
+    font-weight: bold;
+    color: $primary-color;
+  }
+  span{
+    color: $primary-color-2;
+  }
+}
+.ava-pic{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px 25px 25px;
+  img{
+    width: 35%;
+
+  }
+}
+
+.loggedUserWrap{
+  padding: 10px;
+  height: auto;
+  h3{
+    display: inline;
+  }
+}

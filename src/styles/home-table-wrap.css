@@ -1,0 +1,18 @@
+.home-table-wrap {
+  display: block;
+  width: 100%;
+  margin-top: 50px;
+  padding: 25px;
+  border-right: 2px solid #ccc; }
+  .home-table-wrap h3 {
+    text-align: center;
+    margin-bottom: 10px; }
+  .home-table-wrap img {
+    width: 25px; }
+  @media only screen and (max-width: 768px) {
+    .home-table-wrap {
+      border-right: none;
+      border-bottom: 2px solid #ccc; } }
+
+tbody tr:nth-child(odd) {
+  background-color: #F2F2F2; }

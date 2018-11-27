@@ -1,0 +1,59 @@
+.select-wrapper {
+  padding: 0 0 0 0; }
+  .select-wrapper .rc-select-selection {
+    width: 220px;
+    height: 42px !important;
+    line-height: 40px !important;
+    font-size: 18px;
+    border-radius: 35px !important;
+    border: 2px solid #1D3148 !important;
+    outline: none !important; }
+    .select-wrapper .rc-select-selection .rc-select-selection__rendered {
+      height: 40px !important;
+      line-height: 36px !important; }
+    .select-wrapper .rc-select-selection .rc-select-selection__rendered {
+      margin-left: 25px !important; }
+    .select-wrapper .rc-select-selection .rc-select-arrow {
+      top: 6px !important;
+      right: 7px !important; }
+    .select-wrapper .rc-select-selection .rc-select-selection__clear {
+      top: 4px !important;
+      right: 27px !important; }
+  .select-wrapper .rc-select-enabled .rc-select-selection:hover {
+    border-color: inherit !important;
+    box-shadow: none !important; }
+  .select-wrapper .rc-select-focused .rc-select-selection {
+    border-color: #00AAB0 !important; }
+  .select-wrapper .rc-select-open {
+    border-color: #00AAB0 !important;
+    box-shadow: none !important; }
+
+.ReactModalPortal .addNotificationForm .select-wrapper {
+  padding: 0 0 0 0; }
+  .ReactModalPortal .addNotificationForm .select-wrapper .rc-select-selection {
+    width: 260px;
+    height: 42px !important;
+    line-height: 40px !important;
+    font-size: 18px;
+    border-radius: 35px !important;
+    border: 2px solid #1D3148 !important;
+    outline: none !important; }
+    .ReactModalPortal .addNotificationForm .select-wrapper .rc-select-selection .rc-select-selection__rendered {
+      height: 40px !important;
+      line-height: 36px !important; }
+    .ReactModalPortal .addNotificationForm .select-wrapper .rc-select-selection .rc-select-selection__rendered {
+      margin-left: 25px !important; }
+    .ReactModalPortal .addNotificationForm .select-wrapper .rc-select-selection .rc-select-arrow {
+      top: 6px !important;
+      right: 7px !important; }
+    .ReactModalPortal .addNotificationForm .select-wrapper .rc-select-selection .rc-select-selection__clear {
+      top: 4px !important;
+      right: 27px !important; }
+  .ReactModalPortal .addNotificationForm .select-wrapper .rc-select-enabled .rc-select-selection:hover {
+    border-color: inherit !important;
+    box-shadow: none !important; }
+  .ReactModalPortal .addNotificationForm .select-wrapper .rc-select-focused .rc-select-selection {
+    border-color: #00AAB0 !important; }
+  .ReactModalPortal .addNotificationForm .select-wrapper .rc-select-open {
+    border-color: #00AAB0 !important;
+    box-shadow: none !important; }

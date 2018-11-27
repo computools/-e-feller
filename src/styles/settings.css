@@ -1,0 +1,58 @@
+.settings-wrap {
+  padding: 25px; }
+  .settings-wrap hr {
+    height: 2px;
+    color: #ccc; }
+  .settings-wrap .user-settings .select-wrapper {
+    margin: 10px 0; }
+  @media only screen and (max-width: 480px) {
+    .settings-wrap .user-settings {
+      text-align: center; } }
+  .settings-wrap .fa-bars {
+    font-size: 40px;
+    margin: 0 0 10px 0;
+    transition: all 0.2s; }
+    .settings-wrap .fa-bars:hover {
+      color: #ccc;
+      transition: all 0.2s; }
+  @media only screen and (min-width: 780px) {
+    .settings-wrap .fa-bars {
+      display: none; } }
+  @media only screen and (max-width: 480px) {
+    .settings-wrap .notification-settings {
+      text-align: center; } }
+
+.edit-actions i:hover {
+  cursor: pointer;
+  color: #00AAB0; }
+
+.ReactModalPortal .addNotificationForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 60px;
+  margin: 0 auto; }
+  .ReactModalPortal .addNotificationForm input[type="text"] {
+    width: 260px;
+    height: 42px;
+    margin: 10px 0;
+    font-size: 18px;
+    padding-left: 25px;
+    border: 2px solid #1D3148;
+    border-radius: 35px;
+    color: #333;
+    outline: none; }
+  .ReactModalPortal .addNotificationForm input[type="number"] {
+    width: 260px;
+    height: 42px;
+    margin: 10px 0;
+    font-size: 18px;
+    padding-left: 25px;
+    border: 2px solid #1D3148;
+    border-radius: 35px;
+    color: #333;
+    outline: none; }
+
+.notification-table {
+  overflow-x: scroll; }
